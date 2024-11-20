@@ -57,7 +57,7 @@ func handlerReset(state *State, _ Command) error {
 	if err != nil {
 		return err
 	}
-	fmt.Println("Reset all users")
+	fmt.Println("Reset database")
 	return nil
 }
 
