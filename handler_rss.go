@@ -5,12 +5,12 @@ import (
 	"database/sql"
 	"errors"
 	"fmt"
-	"gator/internal/database"
-	"gator/internal/rss"
 	"strconv"
 	"strings"
 	"time"
 
+	"github.com/ThienDuc3112/gator/internal/database"
+	"github.com/ThienDuc3112/gator/internal/rss"
 	"github.com/google/uuid"
 	"github.com/lib/pq"
 )

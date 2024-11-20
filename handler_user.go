@@ -3,9 +3,9 @@ package main
 import (
 	"context"
 	"fmt"
-	"gator/internal/database"
 	"time"
 
+	"github.com/ThienDuc3112/gator/internal/database"
 	"github.com/google/uuid"
 )
 
